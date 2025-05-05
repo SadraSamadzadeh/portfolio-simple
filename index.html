@@ -23,6 +23,9 @@
     font-family: "Madimi One", sans-serif;
     margin: 50px;
 	}
+  html {
+    cursor: url('./cursor2.png'), auto;
+  }
   p {
     color: #8892b0;
     font-size: 18px;
@@ -73,10 +76,13 @@
 		
 	}
 	a:hover {
-		cursor: url('./cursor.png');
+		cursor: url('./cursor.png'), auto;
 	}
 	.header-text {
 		color: #ccd6f6;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 	}
   .education {
     width: 700px;
@@ -92,6 +98,11 @@
   }
   .location {
     margin-bottom: 20px;
+  }
+  .link-project { 
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 	/* the style has to be rewritten again : the blue hex for background : #0a192f the green hex for highlight: #64ffda the text color of slate:  #8892b0 and the white is : #ccd6f6 */
   </style>
@@ -168,24 +179,84 @@
   <div class="section" id="projects">
     <h2 class="header-text">Projects</h2>
     <div class="card">
-		<h3 class="header-text">Portfolio Website · In Progress <a href=""></a></h3>
+		<h3 class="header-text">Portfolio Website · In Progress <a href="https://github.com/SadraSamadzadeh/portfolio" target="_blank">
+      <svg fill="#64ffda" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+              width="24px" height="24px" viewBox="0 0 442.246 442.246"
+              xml:space="preserve">
+            <g>
+            <g>
+              <path d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+                l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+                c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+                c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+                C453.109,146.306,453.109,75.926,409.657,32.474z"/>
+              <path d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+                l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+                c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+                c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+                C230.035,335.719,220.243,334.496,184.135,320.114z"/>
+            </g>
+            </g>
+      </svg>
+    </a></h3>
 		<!-- /*<a>Icon</a> -->
       <p>A personal website to showcase my work and skills. but don't worry it's way cooler than this one :>. credits to the designs I found on Figma by </p>
     </div>
     <div class="card">
-        <h3 class="header-text">Noellie Gallery · Maintaining and Developing <a target="https://www.noelliegallery.com" target="_blank"></a></h3>
+        <h3 class="header-text">Noellie Gallery · Maintaining and Developing <a href="https://www.noelliegallery.net" target="_blank">
+          <svg fill="#64ffda" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+              width="24px" height="24px" viewBox="0 0 442.246 442.246"
+              xml:space="preserve">
+            <g>
+            <g>
+              <path d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+                l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+                c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+                c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+                C453.109,146.306,453.109,75.926,409.657,32.474z"/>
+              <path d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+                l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+                c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+                c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+                C230.035,335.719,220.243,334.496,184.135,320.114z"/>
+            </g>
+            </g>
+      </svg>
+        </a></h3>
 		<!-- /*<a>Icon</a> -->
 
         <p>A personalized gallery for everyone where they can upload their images and albums and future hint: -share them-. the thing I learned about this project was mostly just handling a big project on my own both the backend and the frontend and also considering every option for future ease of coding and scalability.</p>
     </div>
 	<div class="card">
-        <h3 class="header-text">MafiaBuzz<a href="https://www.mafiabuzz.app" target="_blank"></a></h3>
+        <h3 class="header-text">MafiaBuzz<a href="https://www.mafiabuzz.app" target="_blank">
+      <svg fill="#64ffda" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+              width="24px" height="24px" viewBox="0 0 442.246 442.246"
+              xml:space="preserve">
+            <g>
+            <g>
+              <path d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
+                l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
+                c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
+                c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
+                C453.109,146.306,453.109,75.926,409.657,32.474z"/>
+              <path d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
+                l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
+                c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
+                c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
+                C230.035,335.719,220.243,334.496,184.135,320.114z"/>
+            </g>
+            </g>
+      </svg>
+    </a>
+  </h3>
 		<!-- /*<a>Icon</a> -->
 
         <p>Forked the open source project from github and made a new feature for it requested by the owner and creator, During the development I got introduced to Vuejs and the structure of it and got my way of working with SCSS. this project taught me a lot about global state management and heavy loaded web apps containing a lot of different situations and states. maybe you would like to play it with your friends</p>
     </div>
 	<div class="card">
-        <h3 class="header-text ">Face Authentication SDK app @ 20face </h3>
+<div class="link-project">
+  <h3 class="header-text ">Face Authentication SDK app @ 20face </h3>
+</div>
         <p>Developed a showcase app on mobile for IOS and Android for making demo's for facial recognition SDK and no, don't worry they dont sell your data to a spy as the applications stores no data</p>
     </div>
 	<div>
