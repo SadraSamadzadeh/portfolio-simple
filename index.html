@@ -6,130 +6,116 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <title>My Portfolio</title>
+  <title>Sadra Samadzadeh</title>
   <style>
-    body {
-      margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #0a192f;
-      color: #8892b0;
-	  cursor: url('./cursor2.png'), auto;
-    }
-    header {
-      color: #ccd6f6;
-      padding: 2rem;
-      text-align: center;
-    }
-    section {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      border-bottom: 2px solid #64ffda;
-	  color: #ccd6f6;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1rem;
-    }
-    .card {
-      border-radius: 12px;
-      padding: 1.5rem;
-      margin-bottom: 1rem;
-    }
-    .skills {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      justify-content: center;
-      margin-top: 2rem;
-    }
-    .skill {
-      background-color: #A285D1;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 20px;
-      font-size: 0.9rem;
-    }
-    footer {
-      background-color: #004f88;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 3rem;
-    }
-    .link {
-        text-decoration: none;
-		color: #64ffda;
-    }
-	.link:hover {
-		cursor: url('./cursor.png') 4 4, auto;
-	}
-	.location { 
+	body {
+		/* font  */
+		background-color: #0a192f;
 		color: #8892b0;
-	}
-	h3 {
-		color:#ccd6f6;
-	}	
-	.projects {
+		width: 500px;
 		display: flex;
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
-	section {
-		max-width: 700px;
+	html {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 	}
+	.header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.experience {
+		width: 500px;
+	}
+	.skills {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		width: 100%;
+		flex-wrap: wrap;
+		gap: 10px;
+
+	}
+	.skill {
+		text-align: center;
+		padding: 10px;
+		background-color: brown;
+		width: 70px;
+	}
+	.skills-container {
+		width: 500px;
+	}
+	a {
+		color: #64ffda;
+		text-decoration: none;
+		
+	}
+	a:hover {
+		cursor: url('./cursor.png');
+	}
+	.header-text {
+		color: #ccd6f6;
+	}
+	/* the style has to be rewritten again : the blue hex for background : #0a192f the green hex for highlight: #64ffda the text color of slate:  #8892b0 and the white is : #ccd6f6 */
   </style>
 </head>
 <body>
-  <header>
-    <h1>Sadra Samadzadeh</h1>
-    <p class="location">Deventer, Netherlands</p>
-  </header>
-
-  <section id="summary">
-    <h2>About Me</h2>
-    <div class="card">
+  <div class="header">
+    <div class="header-text"><h1>Sadra Samadzadeh</h1></div>
+    <div class="location">Deventer, Netherlands</div>
+	</div>
+	<!-- something to add here for my contact details like linkedin icon and github icon and maybe make some other thing check the brittany person see what she put ther -->
+  <div class="about-me">
+    <h2 class="header-text">About Me</h2>
+    <div class="">
       <p>
     I have 3 years of experience in web development
      and I am currently interning as a full stack developer,
         bringing clarity to the front, and depth to the back.
         My slogan is: "Code with intent. Design with precision. Ship with purpose."
         I enjoy playing games or learning something new. So basically I enjoy learning about game development and in my free time I am either debugging deployment issues or playing a new game.
-</p>
+	</p>
     </div>
-  </section>
-
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="card">
+</div>
+//fix the distance between the items in this list 
+<div class="experience">
+    <h2 class="header-text">Experience</h2>
+    <div class="header-text">
       <h3>Fullstack Development Intern - <a class="link" href="https://www.usf.sport/" target="_blank">USF.SPORT</a></h3>
       <h5>Zeist, Netherlands</h5>
       <p>Jan 2025 - Present</p>
       <p>Developed web applications and improved system performance by 30%.</p>
     </div>
-    <div class="card">
+    <div class="header-text">
         <h3>Frontend Developer - <a class="link" href="https://www.inmotio.eu/" target="_blank">Inmotio</a></h3>
         <h5>Zeist, Netherlands</h5>
         <p>Aug 2024 - Jan 2025</p>
         <p>Developed web applications and improved system performance by 30%.</p>
-      </div>
-      <div class="card">
+	</div>
+	<div class="card">
         <h3>Frontend Development Intern - <a class="link" href="https://www.inmotio.eu/" target="_blank">Inmotio</a></h3>
         <h5>Zeist, Netherlands</h5>
         <p>Jan 2024 - Jul 2024</p>
         <p>Developed web applications and improved system performance by 30%.</p>
-      </div>
-  </section>
+	</div>
+</div>
 
-  <section id="education">
-    <h2>Education</h2>
+  <div class="section" id="education">
+    <h2 class="header-text">Education</h2>
     <div class="card">
       <h3>HBO-ICT, Software Engineering - <a class="link" href="https://www.saxion.nl/" target="_blank">Saxion University of Applied Sciences</a> </h3>
 	  <h5>Deventer, Netherlands</h5>
       <p>Sep 2021 - Present</p>
     </div>
-  </section>
+</div>
 
-  <section class="projects" id="projects">
+  <div class="section" id="projects">
     <h2>Projects</h2>
     <div class="card">
 		<h3>Portfolio Website - In Progress <a href=""></a></h3>
@@ -155,9 +141,9 @@
 	<div>
 
 	</div>
-  </section>
+</div>
 
-  <section id="skills">
+  <div class="skills-container">
     <h2>Skills</h2>
     <div class="skills">
       <div class="skill">HTML</div>
@@ -166,11 +152,23 @@
       <div class="skill">React</div>
       <div class="skill">Python</div>
       <div class="skill">Git</div>
-    </div>
-  </section>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
+      <div class="skill">Git</div>
 
-  <footer>
-    <p>Contact</p>
-  </footer>
+    </div>
+</div>
+
 </body>
 </html>
