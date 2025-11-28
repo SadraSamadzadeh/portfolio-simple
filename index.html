@@ -1,320 +1,179 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Madimi+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  <title>Sadra Samadzadeh</title>
-  <style>
-    html {
-      padding: 20px;
-    }
-	body {
-		/* font  */
-		background-color: #0a192f;
-		color: #8892b0;
-		max-width: 700px;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-    font-family: "Madimi One", sans-serif;
-    margin: 50px;
-	}
-  @media (max-width: 768px) {
-    body{
-      margin: 10px;
-    }
-  }
-  html {
-    cursor: url('./cursor2.png'), auto;
-  }
-  p {
-    color: #8892b0;
-    font-size: 18px;
-  }
-  h5 {
-    color: #8892b0;
-    font-size: 14px;
-  }
-  h3 {
-    font-size: 20px;
-  }
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sadra Samadzadeh — Full-Stack Developer</title>
 
-	html {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-	.header {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.experience {
-		max-width: 700px;
-	}
-	.skills {
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-		width: 100%;
-		flex-wrap: wrap;
-		gap: 10px;
+  <!-- Fonts (fast, swap) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-	}
-	.skill {
-		text-align: center;
-		padding: 10px;
-    box-shadow: 0 2px 2px rgba(100, 255, 218, 0.5);
-	}
-	.skills-container {
-		max-width: 700px;
-	}
-	a {
-		color: #64ffda;
-		text-decoration: none;
-		
-	}
-	a:hover {
-		cursor: url('./cursor.png'), auto;
-	}
-	.header-text {
-		color: #ccd6f6;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-	}
-  .education {
-    max-width: 700px;
-  }
-  .divider {
-    border-bottom: 1px solid #64ffda;
-    width: 100%;
-    height: 5px;
-  }
-  .icons {
-    display: flex;
-    gap: 20px;
-  }
-  .location {
-    margin-bottom: 20px;
-  }
-  .link-project { 
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .header-text2 {
-    color: #ccd6f6;
-    max-width: 700px;
-  }
-	/* the style has to be rewritten again : the blue hex for background : #0a192f the green hex for highlight: #64ffda the text color of slate:  #8892b0 and the white is : #ccd6f6 */
-  </style>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Sadra Samadzadeh — Full-Stack Developer. React, Vue, PHP, CI/CD and video apps. A concise portfolio / résumé.">
 </head>
 <body>
-  <div class="header">
-    <div class="header-text"><h1>Sadra Samadzadeh</h1></div>
-    <div class="location">Deventer, Netherlands</div>
-    <div class="icons">
-    <a href="https://www.linkedin.com/in/sadrasamadzadeh" target="_blank" class="link">
-      <svg width="36px" height="36px" viewBox="0 0 24 24" fill="#64ffda" xmlns="http://www.w3.org/2000/svg">
-        <path d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z" fill="#64ffda"/>
-        <path d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z" fill="#64ffda"/>
-        <path d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z" fill="#64ffda"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="#64ffda"/>
-    </svg>
-    </a>
-    <a class="link" href="https://github.com/SadraSamadzadeh" target="_blank">
-      <svg width="36px" height="36px" viewBox="0 0 24 24" fill="#64ffda" xmlns="http://www.w3.org/2000/svg">
-        <path d="M4.0744 2.9938C4.13263 1.96371 4.37869 1.51577 5.08432 1.15606C5.84357 0.768899 7.04106 0.949072 8.45014 1.66261C9.05706 1.97009 9.11886 1.97635 10.1825 1.83998C11.5963 1.65865 13.4164 1.65929 14.7213 1.84164C15.7081 1.97954 15.7729 1.97265 16.3813 1.66453C18.3814 0.651679 19.9605 0.71795 20.5323 1.8387C20.8177 2.39812 20.8707 3.84971 20.6494 5.04695C20.5267 5.71069 20.5397 5.79356 20.8353 6.22912C22.915 9.29385 21.4165 14.2616 17.8528 16.1155C17.5801 16.2574 17.3503 16.3452 17.163 16.4167C16.5879 16.6363 16.4133 16.703 16.6247 17.7138C16.7265 18.2 16.8491 19.4088 16.8973 20.4002C16.9844 22.1922 16.9831 22.2047 16.6688 22.5703C16.241 23.0676 15.6244 23.076 15.2066 22.5902C14.9341 22.2734 14.9075 22.1238 14.9075 20.9015C14.9075 19.0952 14.7095 17.8946 14.2417 16.8658C13.6854 15.6415 14.0978 15.185 15.37 14.9114C17.1383 14.531 18.5194 13.4397 19.2892 11.8146C20.0211 10.2698 20.1314 8.13501 18.8082 6.83668C18.4319 6.3895 18.4057 5.98446 18.6744 4.76309C18.7748 4.3066 18.859 3.71768 18.8615 3.45425C18.8653 3.03823 18.8274 2.97541 18.5719 2.97541C18.4102 2.97541 17.7924 3.21062 17.1992 3.49805L16.2524 3.95695C16.1663 3.99866 16.07 4.0147 15.975 4.0038C13.5675 3.72746 11.2799 3.72319 8.86062 4.00488C8.76526 4.01598 8.66853 3.99994 8.58215 3.95802L7.63585 3.49882C7.04259 3.21087 6.42482 2.97541 6.26317 2.97541C5.88941 2.97541 5.88379 3.25135 6.22447 4.89078C6.43258 5.89203 6.57262 6.11513 5.97101 6.91572C5.06925 8.11576 4.844 9.60592 5.32757 11.1716C5.93704 13.1446 7.4295 14.4775 9.52773 14.9222C10.7926 15.1903 11.1232 15.5401 10.6402 16.9905C10.26 18.1319 10.0196 18.4261 9.46707 18.4261C8.72365 18.4261 8.25796 17.7821 8.51424 17.1082C8.62712 16.8112 8.59354 16.7795 7.89711 16.5255C5.77117 15.7504 4.14514 14.0131 3.40172 11.7223C2.82711 9.95184 3.07994 7.64739 4.00175 6.25453C4.31561 5.78028 4.32047 5.74006 4.174 4.83217C4.09113 4.31822 4.04631 3.49103 4.0744 2.9938Z" fill="#64ffda"/>
-        <path d="M3.33203 15.9454C3.02568 15.4859 2.40481 15.3617 1.94528 15.6681C1.48576 15.9744 1.36158 16.5953 1.66793 17.0548C1.8941 17.3941 2.16467 17.6728 2.39444 17.9025C2.4368 17.9449 2.47796 17.9858 2.51815 18.0257C2.71062 18.2169 2.88056 18.3857 3.05124 18.5861C3.42875 19.0292 3.80536 19.626 4.0194 20.6962C4.11474 21.1729 4.45739 21.4297 4.64725 21.5419C4.85315 21.6635 5.07812 21.7352 5.26325 21.7819C5.64196 21.8774 6.10169 21.927 6.53799 21.9559C7.01695 21.9877 7.53592 21.998 7.99999 22.0008C8.00033 22.5527 8.44791 23.0001 8.99998 23.0001C9.55227 23.0001 9.99998 22.5524 9.99998 22.0001V21.0001C9.99998 20.4478 9.55227 20.0001 8.99998 20.0001C8.90571 20.0001 8.80372 20.0004 8.69569 20.0008C8.10883 20.0026 7.34388 20.0049 6.67018 19.9603C6.34531 19.9388 6.07825 19.9083 5.88241 19.871C5.58083 18.6871 5.09362 17.8994 4.57373 17.2891C4.34391 17.0194 4.10593 16.7834 3.91236 16.5914C3.87612 16.5555 3.84144 16.5211 3.80865 16.4883C3.5853 16.265 3.4392 16.1062 3.33203 15.9454Z" fill="#64ffda"/>
-        </svg>
-    </a>
-    
-    </div>
-	</div>
-	<!-- something to add here for my contact details like linkedin icon and github icon and maybe make some other thing check the brittany person see what she put ther -->
-  <div class="about-me">
-    <h2 class="header-text">About Me</h2>
-    <div class="">
-      <p>
-    I have 3 years of experience in web development
-     and I am currently interning as a full stack developer,
-        bringing clarity to the front, and depth to the back.
-        My slogan is: "Code with intent. Design with precision. Ship with purpose."
-        I enjoy playing games or learning something new. So basically I enjoy learning about game development and in my free time I am either debugging deployment issues or playing a new game.
-	</p>
-    </div>
-</div>
-<div class="divider"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <h1 class="name">Sadra <span class="muted">Samadzadeh</span></h1>
+        <p class="role">Full-Stack Developer — I make production behave (mostly).</p>
+      </div>
 
-<!-- //fix the distance between the items in this list  -->
-<div class="experience">
-    <h2 class="header-text">Experience</h2>
-	 <div class="header-text2">
-      <h3>Graduation · <a class="link" href="https://www.usf.sport/" target="_blank">USF.SPORT</a></h3>
-      <h5>Zeist, Netherlands</h5>
-      <p>Sep 2025 - Jan 2026</p>
-      <p>Conducted research and developed a unified, fully accessible, and scalable solution to integrate three distinct products—both internally and externally developed—into a single data-sharing platform. Designed the architecture to enable seamless communication, centralized access, and consistent data synchronization across all systems, improving efficiency and maintainability.</p>
-    </div>
-	 <div class="header-text2">
-      <h3>Mobile Developer · <a class="link" href="https://www.usf.sport/" target="_blank">USF.SPORT</a></h3>
-      <h5>Zeist, Netherlands</h5>
-      <p>Jul 2025 - Sep 2025</p>
-      <p>Developed a mobile application for video streaming, recording, and editing using React Native, providing users with an intuitive and seamless multimedia experience. Implemented backend API endpoints to handle video upload, playback, and editing functionalities, ensuring efficient data flow and synchronization between the client and server for smooth performance and scalability.</p>
-    </div>
-    <div class="header-text2">
-      <h3>Fullstack Development Intern · <a class="link" href="https://www.usf.sport/" target="_blank">USF.SPORT</a></h3>
-      <h5>Zeist, Netherlands</h5>
-      <p>Jan 2025 - Present</p>
-      <p>Currently developing a dashboard for different sport clubs to be able to view, stream and record their matches using USF.SPORT's cameras. the dashboard contains a lot of different features like setting up fields and players and also creates auto summaries using third party APIs</p>
-    </div>
-    <div class="header-text2">
-        <h3>Frontend Developer · <a class="link" href="https://www.inmotio.eu/" target="_blank">Inmotio</a></h3>
-        <h5>Zeist, Netherlands</h5>
-        <p>Aug 2024 - Jan 2025</p>
-        <p>During my employment at Inmotio, I worked on creating and refining a story book project with custom made components I created during my internship and designed and perfected a pipeline system with versioning for updating components to the main project. I also later on contributed to transferring the Blazor project to a React project. </p>
-	</div>
-	<div class="card">
-        <h3 class="header-text2">Frontend Development Intern · <a class="link" href="https://www.inmotio.eu/" target="_blank">Inmotio</a></h3>
-        <h5>Zeist, Netherlands</h5>
-        <p>Jan 2024 - Jul 2024</p>
-        <p>In my 5 months of internship at Inmotio, I developed multiple components from the designs which eventually was transferred to a story book project and I also developed and MVP as the only frontend developer using Blazor C#.</p>
-	</div>
-</div>
-<div class="divider"></div>
-  <div class="education" id="education">
-    <h2 class="header-text">Education</h2>
-    <div class="card">
-      <h3 class="header-text">HBO-ICT, Software Engineering · <a class="link" href="https://www.saxion.nl/" target="_blank">Saxion University of Applied Sciences</a> </h3>
-	  <h5>Deventer, Netherlands</h5>
-      <p>Sep 2021 - Present</p>
-    </div>
-</div>
-<div class="divider"></div>
-  <div class="section" id="projects">
-    <h2 class="header-text">Projects</h2>
-    <div class="card">
-		<h3 class="header-text">Portfolio Website · In Progress <a href="https://github.com/SadraSamadzadeh/portfolio" target="_blank">
-      <svg fill="#64ffda" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-              width="24px" height="24px" viewBox="0 0 442.246 442.246"
-              xml:space="preserve">
-            <g>
-            <g>
-              <path d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
-                l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
-                c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
-                c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
-                C453.109,146.306,453.109,75.926,409.657,32.474z"/>
-              <path d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
-                l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
-                c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
-                c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
-                C230.035,335.719,220.243,334.496,184.135,320.114z"/>
-            </g>
-            </g>
-      </svg>
-    </a></h3>
-		<!-- /*<a>Icon</a> -->
-      <p>A personal website to showcase my work and skills. but don't worry it's way cooler than this one :>. credits to the designs I found on Figma by </p>
-    </div>
-    <div class="card">
-        <h3 class="header-text">Noellie Gallery · Maintaining and Developing <a href="https://www.noelliegallery.net" target="_blank">
-          <svg fill="#64ffda" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-              width="24px" height="24px" viewBox="0 0 442.246 442.246"
-              xml:space="preserve">
-            <g>
-            <g>
-              <path d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
-                l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
-                c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
-                c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
-                C453.109,146.306,453.109,75.926,409.657,32.474z"/>
-              <path d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
-                l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
-                c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
-                c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
-                C230.035,335.719,220.243,334.496,184.135,320.114z"/>
-            </g>
-            </g>
-      </svg>
-        </a></h3>
-		<!-- /*<a>Icon</a> -->
+      <button class="nav-toggle" aria-label="Open navigation" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
 
-        <p>A personalized gallery for everyone where they can upload their images and albums and future hint: -share them-. the thing I learned about this project was mostly just handling a big project on my own both the backend and the frontend and also considering every option for future ease of coding and scalability.</p>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
     </div>
-	<div class="card">
-        <h3 class="header-text">MafiaBuzz<a href="https://www.mafiabuzz.app" target="_blank">
-      <svg fill="#64ffda" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-              width="24px" height="24px" viewBox="0 0 442.246 442.246"
-              xml:space="preserve">
-            <g>
-            <g>
-              <path d="M409.657,32.474c-43.146-43.146-113.832-43.146-156.978,0l-84.763,84.762c29.07-8.262,60.589-6.12,88.129,6.732
-                l44.063-44.064c17.136-17.136,44.982-17.136,62.118,0c17.136,17.136,17.136,44.982,0,62.118l-55.386,55.386l-36.414,36.414
-                c-17.136,17.136-44.982,17.136-62.119,0l-47.43,47.43c11.016,11.017,23.868,19.278,37.332,24.48
-                c36.415,14.382,78.643,8.874,110.467-16.219c3.06-2.447,6.426-5.201,9.18-8.262l57.222-57.222l34.578-34.578
-                C453.109,146.306,453.109,75.926,409.657,32.474z"/>
-              <path d="M184.135,320.114l-42.228,42.228c-17.136,17.137-44.982,17.137-62.118,0c-17.136-17.136-17.136-44.981,0-62.118
-                l91.8-91.799c17.136-17.136,44.982-17.136,62.119,0l47.43-47.43c-11.016-11.016-23.868-19.278-37.332-24.48
-                c-38.25-15.3-83.232-8.262-115.362,20.502c-1.53,1.224-3.06,2.754-4.284,3.978l-91.8,91.799
-                c-43.146,43.146-43.146,113.832,0,156.979c43.146,43.146,113.832,43.146,156.978,0l82.927-83.845
-                C230.035,335.719,220.243,334.496,184.135,320.114z"/>
-            </g>
-            </g>
-      </svg>
-    </a>
-  </h3>
-		<!-- /*<a>Icon</a> -->
+  </header>
 
-        <p>Forked the open source project from github and made a new feature for it requested by the owner and creator, During the development I got introduced to Vuejs and the structure of it and got my way of working with SCSS. this project taught me a lot about global state management and heavy loaded web apps containing a lot of different situations and states. maybe you would like to play it with your friends</p>
+  <main class="container">
+    <section id="hero" class="card hero">
+      <div class="hero-left">
+        <h2 class="intro">Hi — I build web and mobile apps that don’t embarrass their owners.</h2>
+        <p class="lead">3 years of practical experience across full-stack web, CI/CD, and multimedia apps. I like clean architecture, predictable releases, and well-timed coffee breaks.</p>
+
+        <div class="meta">
+          <div><strong>Location</strong> The Cloud (sometimes Amersfoort, NL)</div>
+          <div><strong>Languages</strong> English (C1), Dutch (learning)</div>
+        </div>
+
+        <div class="links">
+          <a href="mailto:Sadra.samadzadeh1381@gmail.com">Sadra.samadzadeh1381@gmail.com</a>
+          <a href="tel:+31682249799">+31 682249799</a>
+          <a href="https://github.com/SadraSamadzadeh" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/sadrasamadzadeh" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <dl class="quickstats">
+          <div>
+            <dt>Years</dt>
+            <dd>3</dd>
+          </div>
+          <div>
+            <dt>Stacks</dt>
+            <dd>React • Vue • PHP</dd>
+          </div>
+          <div>
+            <dt>Platforms</dt>
+            <dd>Web • Mobile • Video</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="about" class="card section" data-reveal>
+      <h3>About me</h3>
+      <p>I enjoy building practical solutions that scale. Recent work included redesigning a MySQL architecture to handle more load, adding CI/CD pipelines to reduce release friction, and creating a React Native app for video streaming and editing. When I’m not coding, I’m either learning game dev, debugging deployments, or improving my FIFA high score — in that order.</p>
+    </section>
+
+   <section id="experience" class="card section" data-reveal>
+  <h3>Experience</h3>
+
+  <!-- USF.SPORT -->
+  <article class="job">
+    <h4>Full Stack Developer — USF.SPORT</h4>
+    <div class="meta-row">
+      <span>Jan 2025 — Oct 2025</span>
+      <span>Zeist, Netherlands</span>
     </div>
-	<div class="card">
-<div class="link-project">
-  <h3 class="header-text ">Face Authentication SDK app @ 20face </h3>
-</div>
-        <p>Developed a showcase app on mobile for IOS and Android for making demo's for facial recognition SDK and no, don't worry they dont sell your data to a spy as the applications stores no data</p>
+    <ul>
+      <li>Redesigned the MySQL database architecture to improve scalability and support new dashboard integrations.</li>
+      <li>Built CI/CD pipelines for backend and frontend deployments, reducing errors and accelerating release cycles.</li>
+      <li>Developed PHP APIs and a Vue.js dashboard for streamlined data management.</li>
+      <li>Built a React Native mobile app for video streaming, recording, and editing, along with the backend endpoints needed for upload, playback, and synchronization.</li>
+      <li>Researched and designed a unified architecture integrating three previously separate products into one scalable data-sharing platform, enabling seamless communication and consistent data synchronization.</li>
+    </ul>
+  </article>
+
+  <!-- Inmotio -->
+  <article class="job">
+    <h4>Frontend Developer — Inmotio</h4>
+    <div class="meta-row">
+      <span>Feb 2024 — Dec 2024</span>
+      <span>Zeist, Netherlands</span>
     </div>
-	<div>
+    <ul>
+      <li>Developed a cloud-based frontend replacement for a legacy desktop application using C# Blazor.</li>
+      <li>Designed and implemented 90% of a modular UI component library integrated through a .NET Storybook project.</li>
+      <li>Automated deployment via versioned .dll pipelines to synchronize components with the company’s main application.</li>
+      <li>Migrated the company’s web application stack from Blazor to React, improving maintainability and developer efficiency.</li>
+    </ul>
+  </article>
+</section>
 
-	</div>
-</div>
-<div class="divider"></div>
-  <div class="skills-container">
-    <h2 class="header-text">Skills</h2>
-    <div class="skills">
-      <div class="skill">HTML</div>
-      <div class="skill">CSS</div>
-      <div class="skill">JavaScript</div>
-      <div class="skill">Typescript</div>
-      <div class="skill">React</div>
-      <div class="skill">Java</div>
-      <div class="skill">Git</div>
-      <div class="skill">PostgreSQL</div>
-      <div class="skill">Vue JS (Basic)</div>
-      <div class="skill">AWS</div>
-      <div class="skill">MongoDB</div>
-      <div class="skill">C#/.NET</div>
-      <div class="skill">Next JS</div>
-      <div class="skill">Nest JS (Basic)</div>
-      <div class="skill">Tailwind</div>
-      <div class="skill">Node JS</div>
-      <div class="skill">SCRUM</div>
-      <div class="skill">Flutter</div>
-      <div class="skill">React Native</div>
-      <div class="skill">Team Building</div>
-      <div class="skill">Story Book</div>
+    <section id="projects" class="card section" data-reveal>
+      <h3>Projects</h3>
 
+      <div class="project-grid">
+        <div class="project">
+          <h5>Portfolio (this site)</h5>
+          <p>Personal site to show work and experiments. Lightweight, responsive, and intentionally unflashy.</p>
+          <a href="https://github.com/SadraSamadzadeh/portfolio" target="_blank" rel="noopener">Code</a>
+        </div>
+
+        <div class="project">
+          <h5>Noellie Gallery</h5>
+          <p>Maintained and developed a cloud gallery with image uploads, albums, and backend/frontend ownership. Learned a lot about full-project responsibility and scaling decisions.</p>
+          <a href="https://www.noelliegallery.net" target="_blank" rel="noopener">Live</a>
+        </div>
+
+        <div class="project">
+          <h5>MafiaBuzz</h5>
+          <p>Forked an open-source project, implemented a new feature, and got comfortable with Vue and SCSS in heavy stateful apps.</p>
+          <a href="https://www.mafiabuzz.app" target="_blank" rel="noopener">Try it</a>
+        </div>
+
+        <div class="project">
+          <h5>Face Auth Demo — 20face</h5>
+          <p>Mobile showcase app for a face-authentication SDK. No data stored in the demo app.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="card section" data-reveal>
+      <h3>Skills</h3>
+      <div class="chips">
+        <!-- grouped and ordered -->
+        <span class="chip">JavaScript / TypeScript</span>
+        <span class="chip">React / React Native</span>
+        <span class="chip">Vue.js</span>
+        <span class="chip">PHP</span>
+        <span class="chip">MySQL / PostgreSQL</span>
+        <span class="chip">CI/CD & Docker</span>
+        <span class="chip">AWS / GCP basics</span>
+        <span class="chip">Storybook</span>
+        <span class="chip">C# / Blazor (past)</span>
+        <span class="chip">Testing & Automation</span>
+      </div>
+    </section>
+
+    <section id="education" class="card section" data-reveal>
+      <h3>Education</h3>
+      <p><strong>HBO-ICT, Software Engineering</strong> — Saxion University of Applied Sciences (Sep 2021 — Present). GPA: 8/10. Holland Scholarship & Saxion Talent Scholarship.</p>
+    </section>
+
+    <section id="contact" class="card section" data-reveal>
+      <h3>Contact</h3>
+      <p>If you want to work together, hire me, or just need someone to blame for a flaky deployment: send an email to <a href="mailto:Sadra.samadzadeh1381@gmail.com">Sadra.samadzadeh1381@gmail.com</a> or ping my LinkedIn.</p>
+      <p class="tiny">Resume PDF and sources available on request.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© Sadra Samadzadeh — concise résumé website · built for speed.</small>
     </div>
-</div>
+  </footer>
 
+  <script src="script.js" defer></script>
 </body>
 </html>
